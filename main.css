@@ -13,14 +13,35 @@
   padding-left: 162px;
 }
 
-nav {
+#sesame {
   position: fixed;
   top: 0;
+  left: 0;
+  background-color: lightgray;
+  border-right: 2px solid grey;
+  width: 150px;
+  width: 150px;
+  text-align: right;
+}
+
+#sesame.close {
+  background-color: white;
+  border: none;
+  
+}
+
+nav {
+  position: fixed;
+  top: 10px;
   left: 0;
   bottom: 0;
   background-color: lightgray; 
   border-right: 2px solid grey;
   width: 150px;
+}
+
+nav.close {
+  visibility: hidden;
 }
 
 nav ul {
